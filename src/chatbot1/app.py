@@ -3,7 +3,7 @@ from flask import Flask, request, render_template, redirect, url_for
 
 app = Flask(__name__)
 
-GOOGLE_API_KEY = 'AIzaSyCarN4yxPKWw9UiiCVsx0H0c_MWJbHjLV8'  
+GOOGLE_API_KEY = "Google-apikey"  
 genai.configure(api_key=GOOGLE_API_KEY)
 
 messages = [
